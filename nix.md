@@ -7,6 +7,9 @@
 `nix-shell -p git neovim curl` shell environment
 `nix-env -qaP git`
 
+`nix run` or `nix-shell` for temporary usage
+`home-manager` for dotfiles and user dependencies
+
 # Links
 [-> Nix weekly](https://weekly.nixos.org/)
 [-> More Tutorials](https://weekly.nixos.org/2021/05-nixos-weekly-2021-05.html)
@@ -14,6 +17,7 @@
 [-> Nix By Example](https://ops.functionalalgebra.com/nix-by-example/)
 [-> Nix.org/manual](https://nixos.org/manual/nix/stable/introduction.html)
 [-> A Gentle Introduction to the Nix Family](https://web.archive.org/web/20210121042658/https://ebzzry.io/en/nix/#nix)
+[-> ertt.ca/Shell Scripts with Nix](https://www.ertt.ca/nix/shell-scripts/)
 
 # Tutorials [->nix.dev](https://nix.dev/)
 - install Nix

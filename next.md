@@ -6,3 +6,4 @@
 
 # Questions
 - what to virtualize and what to containerize?
+- what is toxiproxy?
