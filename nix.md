@@ -7,6 +7,13 @@
 `nix-shell -p git neovim curl` shell environment
 `nix-env -qaP git`
 
+Override the registry locally
+`nix registry add nixpkgs ~/my-nixpkgs`
+Or pin it to a specific revision
+
+update the locked version of an flake input
+`nix flake lock --update-input nxipkgs`
+
 `nix run` or `nix-shell` for temporary usage
 `home-manager` for dotfiles and user dependencies
 
